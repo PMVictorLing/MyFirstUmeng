@@ -76,7 +76,7 @@ public class DownLoadTask extends AsyncTask<String, Integer, Integer> {
      * 暂停下载
      */
     public void pausedDownload(){
-
+        isPaused = true;
     }
 
     /**
